@@ -1,0 +1,30 @@
+.el-menu{border: none;}
+.el-menu-item.is-active{
+  background-color: rgba(0, 180, 108, 1)
+}
+.el-menu-item{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.el-sub-menu__title{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.el-sub-menu .el-menu-item{
+  font-size: 16px;
+  font-weight: 400;
+  text-indent: 48px;
+}
+.el-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.el-menu-item.is-active:hover {
+  background-color: rgba(0, 180, 108, 1)
+}
+.el-button .svg-icon{
+  margin-right: 8px;
+}
